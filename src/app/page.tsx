@@ -74,7 +74,6 @@ export default function Dashboard() {
               <tr>
                 <th className="p-3">Nom</th>
                 <th className="p-3">Dernière séance</th>
-                <th className="p-3">RPE</th>
                 <th className="p-3">Paiement</th>
                 <th className="p-3">Actions</th>
               </tr>
@@ -83,14 +82,12 @@ export default function Dashboard() {
               <tr className="border-t">
                 <td className="p-3">Mathieu D.</td>
                 <td className="p-3">15 avril</td>
-                <td className="p-3">7.5</td>
                 <td className="p-3"><Badge variant="default">Payé</Badge></td>
                 <td className="p-3"><Button size="sm" variant="link">Voir</Button></td>
               </tr>
               <tr className="border-t">
                 <td className="p-3">Julie L.</td>
                 <td className="p-3">13 avril</td>
-                <td className="p-3">6</td>
                 <td className="p-3"><Badge variant="destructive">Non payé</Badge></td>
                 <td className="p-3"><Button size="sm" variant="link">Voir</Button></td>
               </tr>

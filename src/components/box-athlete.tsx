@@ -20,7 +20,7 @@ export default function BoxAthlete() {
                     <p className="text-sm">Abonnement payé ce mois-ci</p>
                     <div className="flex flex-row justify-between pr-20 pl-20">
                         <a href="/athlete"><LayoutDashboard/></a>
-                        <Calendar />
+                        <a href="/calendar"><Calendar /></a>
                         <Phone />
                     </div>
                 </div>
